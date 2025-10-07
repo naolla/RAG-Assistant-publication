@@ -1,14 +1,14 @@
-# RAG-Based AI Assistant
+# RAG Based Publication Assistant
 
 ## 🤖 What is this?
 
-This is a **learning template** for building a RAG (Retrieval-Augmented Generation) AI assistant. RAG systems combine document search with AI chat - they can answer questions about your specific documents by finding relevant information and using it to generate responses.
+RAG Based Publication Assistant is a Retrieval-Augmented Generation (RAG) application that ingests publication files (research articles, notes, and text documents), indexes them in a vector database, and answers questions using relevant excerpts from those publications.
 
-**Think of it as:** ChatGPT that knows about YOUR documents and can answer questions about them.
+**Think of it as:** a focused assistant that answers questions grounded in your publication library.
 
-## 🎯 What you'll build
+## 🎯 What it does
 
-By completing this project, you'll have an AI assistant that can:
+This assistant can:
 
 - 📄 **Load your documents** (PDFs, text files, etc.)
 - 🔍 **Search through them** to find relevant information
@@ -55,7 +55,7 @@ data/
 └── your_topic_3.txt
 ```
 
-Each file should contain text content you want your RAG system to search through.
+Each file should contain text content you want the assistant to search through.
 
 ---
 
