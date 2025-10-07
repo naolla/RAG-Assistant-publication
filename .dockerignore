@@ -1,0 +1,14 @@
+.git
+.gitignore
+__pycache__
+*.pyc
+.env
+chroma_db/
+*.ipynb
+dist/
+build/
+.pytest_cache/
+.venv/
+venv/
+node_modules/
+
