@@ -1,0 +1,2 @@
+# Core runtime dependencies (pinned)
+-r ../requirements.lock
