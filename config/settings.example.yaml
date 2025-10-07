@@ -1,0 +1,4 @@
+# Example application settings (override with env vars as needed)
+chroma_collection_name: rag_documents
+embedding_model: sentence-transformers/all-MiniLM-L6-v2
+log_level: INFO

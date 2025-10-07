@@ -20,9 +20,14 @@ This assistant can:
 
 ## 🚀 Quick Start
 
-1) Install (prefer the lockfile for reproducibility)
+1) Install (choose one)
 ```bash
+# Reproducible runtime (recommended)
 pip install -r requirements.lock
+
+# Or use dependency groups
+pip install -r requirements/base.txt      # runtime
+pip install -r requirements/dev.txt       # + dev tools
 ```
 
 2) Configure one provider API key in a `.env` file
@@ -31,6 +36,7 @@ OPENAI_API_KEY=...
 # or GROQ_API_KEY=...
 # or GOOGLE_API_KEY=...
 ```
+See `.env.example` for all variables.
 
 3) Run
 ```bash
